@@ -1,4 +1,4 @@
-name: First Workflow
+name: Push Workflow
 on: 
   push:
     branches: [ main ]
@@ -11,4 +11,5 @@ jobs:
       - name: print goodbye message
         run: |
           echo "This is my first workflow"
+          echo "I am learning GitHub Actions"
           echo "I am learning GitHub Actions"
